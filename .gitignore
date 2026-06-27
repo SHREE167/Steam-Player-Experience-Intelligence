@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+ENV/
+
+# Python Cache & Compiled Files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Local DuckDB Database & Raw Scraped Data
+data/*.db
+data/*.db.wal
+data/steam_analytics.db
+
+# IDE Configuration
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS Artifacts
+Thumbs.db
+db.temp
+.DS_Store
